@@ -29,15 +29,5 @@ Experience the rhythm with this interactive drum simulator built using HTML, CSS
 
 **Get ready to unleash your creativity and rhythm with this responsive drum simulator. Start making some noise today!**
 
-[Demo Link](#) | [Live Preview](#)
-
-**Contributing:**
-We welcome contributions to enhance this drum simulator. Whether you have ideas for new features, improvements, or bug fixes, feel free to open an issue or submit a pull request.
-
-**License:**
-This drum simulator is licensed under the [MIT License](LICENSE). You are free to use, modify, and distribute the code as per the terms of this license.
-
-**Author:**
-[Your Name or Username](https://github.com/yourusername)
 
 Feel the beat, explore your creativity, and share your drumming skills with the world using this responsive drum simulator. Drum away! 🥁🎶
