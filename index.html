@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drummer.DM | Abhishek jain</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto Mono"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="drum-set.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div class="container">
+      <!--Header-->
+      <header class="header">
+        <div class="headerlogodiv">
+          <img src="drum-set.png" alt="drum-logo drummer" class="headerlogo" />
+        </div>
+
+        <div class="headername">Drummer.DM</div>
+        <div class="headerlink">
+          <a href="#">About Developer</a>
+        </div>
+      </header>
+      <!--Header-->
+      <!--main drum image-->
+      <div class="image">
+        <img
+          src="drumimg-removebg-preview.png"
+          alt="mainDrum image"
+          class="maindrumimg"
+        />
+      </div>
+      <!--main drum image-->
+      <div class="playbuttonssection">
+        <div class="button1 buttontoplay" onclick="basedrum()" id="basedrumdiv">
+          <span class="suptext">B</span>
+          <img src="bass-drum.png" alt="bass-drum" class="insideimage" />
+          <audio src="mainkickdrum.mp3" id="bassdrum"></audio>
+        </div>
+        <div class="button1 buttontoplay" onclick="tomtoml()" id="tomtomldiv">
+          <span class="suptext">T</span>
+          <img src="tomtomimg.png" alt="bass-drum" class="insideimage" />
+          <audio src="maintomtom.mp3" id="tomtomL"></audio>
+        </div>
+        <div class="button1 buttontoplay" onclick="cymbal1()" id="cymbal1div">
+          <span class="suptext">C</span>
+          <img
+            src="cymbals.png"
+            alt="bass-drum"
+            class="insideimage revertimg"
+          />
+          <audio src="hihat.mp3" id="cymbal1"></audio>
+        </div>
+        <div class="button1 buttontoplay" onclick="tomtomr()" id="tomtomrdiv">
+          <span class="suptext">A</span>
+          <img src="tomtomimg.png" alt="bass-drum" class="insideimage" />
+          <audio src="maintomtom.mp3" id="tomtomR"></audio>
+        </div>
+        <div class="button1 buttontoplay" onclick="snare()" id="snarediv">
+          <span class="suptext">S</span>
+          <img src="snare-drum.png" alt="bass-drum" class="insideimage" />
+          <audio
+            src="Free Sound Effect - Snare Drum.mp3"
+            id="snaredrum"
+          ></audio>
+        </div>
+        <div class="button1 buttontoplay" onclick="crash()" id="crashdiv">
+          <span class="suptext">R</span>
+          <img src="cymbalcrash.png" alt="bass-drum" class="insideimage" />
+          <audio src="crash.mp3" id="crash"></audio>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
